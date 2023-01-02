@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Resume - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="	vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+	
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+    <style>
+    .services-inner-box{
+      padding: 15px;
+      background: #d9d9d9;
+      margin-bottom: 30px;
+    }
+    .section {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        padding: 70px 0;
+    }
+    .leftmenu {
+    @include 'style.css';
+}
+    .services-inner-box{
+    	padding: 15px;
+    	background: #d9d9d9;
+    	margin-bottom: 30px;
+    }
+    .section {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        padding: 70px 0;
+    }
+    .leftmenu {
+    @include 'style.css';
+}
+    .collapsible {
+
+      cursor: pointer;
+
+
+    }
+
+    .active, .collapsible:hover {
+
+    }
+
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+
+    }
+    ol.b {
+  list-style-type: square;
+}
+
+.collapsible1 {
+  background-color: #ccebff;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible2 {
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active1, .collapsible1:hover {
+  background-color: #ccebff;
+}
+
+.content1 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(TravelingTypewriter.ttf);
+}
+.sub{ss
+  font-family: myFirstFont;
+	font-family: myFirstFont;
+	font-size: 150%;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.filterDiv {
+  float: left;
+  
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+.img:hover .hover_img {
+
+display: inline;
+
+}
+.hover_img {
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+display: none;
+
+}
+.img {
+
+position: absolute;
+
+}
+
+    </style>
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid  rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+			
+        </span>
+			
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+			 <li class="nav-item">
+	<div style="font-size:10px; color:white;">“Just because you can explain it, doesn’t mean it’s not still a miracle.” ― Terry Pratchett</div>
+
+		
+		</li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+			
+          <li class="nav-item">
+			
+            <a class="nav-link js-scroll-trigger" href="#experience">Publications</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Curriculum Vitae</a>
+          </li>
+		<li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#Outreach">Outreach</a>
+          </li>
+        
+			<li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Miscellaneous</a>
+          </li>
+  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Painting</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Swetha
+            <span class="text-primary">Bhagwat</span>
+          </h1>
+          <div class="subheading mb-5">I am a Stephen Hawking Fellow at the
+University of Birmingham, in UK.
+<br>
+            <a href="mailto:name@email.com">infn.swethabhagwat@gmail.com</a>
+          </div>
+          <p class="mb-5" style="color:black;">I study fundamental physics and astrophysics that can be explored using gravitational wave observations. I am particularly interested in black holes, and my research primarily involves gravitational waves emitted when two black holes collide. 
+		<br><br>  &emsp;   &emsp;I spend my spare time exploring art — I love to paint, explore art galleries and photograph sculptures. I am also looking for opportunities to collaborate with artists and art-entusiasts to explore projects at the interface of art and science. Please feel free to write to me if you would like to brainstorm with me on this (or anything else).
+ 
+<div class="subheading mb-3">Research Interests </div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Understanding the nature of black holes</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Testing the general theory of relativity</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+     Probing strong field gravity</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Developing gravitational wave data analysis for current and future detectors</li>
+<li>
+              <i class="fa-li fa fa-check"></i>Testing for exotic compact objects and black hole mimickers.</li>
+          </ul>
+</p>
+          <ul class="list-inline list-social-icons mb-0">
+            
+            <li class="list-inline-item">
+              <a href="https://orcid.org/0000-0003-4700-5274"  target="_blank" >
+
+
+
+<div class="img">
+
+ <img src="orcid-icon.png" alt="Girl in a jacket"  height="50"> 
+
+<img src="orcid-icon_7.png" class="hover_img" height="50">
+
+</div>
+
+
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://scholar.google.com/citations?user=nBOm368AAAAJ&hl=th"  target="_blank" >
+
+
+
+<div class="img">
+
+ <img src="google-scholar-icon-6.png" alt="Girl in a jacket"  height="50"> 
+
+<img src="google-scholar-icon_7.png" class="hover_img" height="50">
+
+</div>
+
+
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+<section  class="resume-section p-3 p-lg-5 d-flex flex-column"  id="experience">
+  <div class="container">
+      <div class="row">
+  <h2 class="mb-4 mobile-mt-2">Publications</h2>
+
+    <button type="button" class="collapsible1">
+      <div class="sub">  Short Author Papers</div>
+
+
+ </button>
+    <div class="content1">
+     <ul>
+  <li><a href="https://arxiv.org/abs/2201.00023" target="_blank" style="color:black;"> S Bhagwat, C Pacilio, E Barausse, P Pani  (2022). The landscape of massive black-hole spectroscopy with LISA and Einstein Telescope. Physical Review D.</a></li>
+  <li><a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.024030" target="_blank" style="color:black;"> Bhagwat, S., & Pacilio, C. (2021). Merger-ringdown consistency: A new test of strong gravity using deep learning. Physical Review</a></li>
+<li><a href="https://iopscience.iop.org/article/10.1088/1475-7516/2021/01/037" target="_blank" style="color:black;"> Bhagwat, S., Luca, V.D., Franciolini, G., Pani, P., & Riotto, A.W. (2020). The importance of priors on LIGO-Virgo parameter estimation: the case of primordial black holes. Journal of Cosmology and Astroparticle Physics, 2021, 037 – 037.</a></li>
+<li><a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.044053" target="_blank" style="color:black;"> Jiménez Forteza, X., Bhagwat, S., Pani, P., & Ferrari, V.B. (2020). Spectroscopy of binary black hole ringdown using overtones and angular modes. Physical Review D, 102.</a></li>
+<li><a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.024023" target="_blank" style="color:black;"> Bhagwat, S., Cabero, M., Capano, C.D., Krishnan, B., & Brown, D.A. (2020). Detectability of the subdominant mode in a binary black hole ringdown. Physical Review D, 102, 024023.</a></li>
+<li><a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.044033" target="_blank" style="color:black;"> Bhagwat, S., Forteza, X.J., Pani, P., & Ferrari, V.B. (2020). Ringdown overtones, black hole spectroscopy, and no-hair theorem tests. Physical Review D, 101.</a></li>
+
+<li><a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.100.064056" target="_blank" style="color:black;"> Maggio, E., Testa, A., Bhagwat, S., & Pani, P. (2019). Analytical model for gravitational-wave echoes from spinning remnants. Physical Review D.</a></li>
+<li><a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.100.043541" target="_blank" style="color:black;"> Panda, S.K., Bhagwat, S., Suresh, J., & Mitra, S. (2019). Stochastic gravitational wave background mapmaking using regularized deconvolution. Physical Review D.</a></li>
+<li><a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.104065" target="_blank" style="color:black;"> Bhagwat, S., Okounkova, M., Ballmer, S.W., Brown, D.A., Giesler, M., Scheel, M.A., & Teukolsky, S.A. (2018). On choosing the start time of binary black hole ringdowns. Physical Review D.</a></li>
+
+<li><a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.94.084024" target="_blank" style="color:black;">Bhagwat, S., Brown, D.A., & Ballmer, S.W. (2016). Spectroscopic analysis of stellar mass black-hole mergers in our local universe with ground-based gravitational wave detectors. Physical Review D, 94, 084024.</a></li>
+<li><a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.92.102001" target="_blank" style="color:black;">Kumar, P., Barkett, K., Bhagwat, S., Afshari, N., Brown, D.A., Lovelace, G., Scheel, M.A., & Szil’agyi, B. (2015). Accuracy and precision of gravitational-wave models of inspiraling neutron star-black hole binaries with spin: Comparison with matter-free numerical relativity in the low-frequency regime. Physical Review D, 92, 102001.</a></li>
+
+<li><a href="https://iopscience.iop.org/article/10.1088/0264-9381/31/1/015016" target="_blank" style="color:black;">Canton, T.D., Bhagwat, S., Dhurandhar, S.V., & Lundgren, A. (2014). Effect of sine-Gaussian glitches on searches for binary coalescence. Classical and Quantum Gravity, 31, 015016.</a></li>
+</ul> 
+
+    </div>
+    <button type="button" class="collapsible2">
+      <div class="sub">
+    </button>
+    <button type="button" class="collapsible1">
+      <div class="sub">  Authorship on LISA Consortium papers
+
+ </button>
+
+
+
+    <div class="content1">
+ <ul>
+  <li><a href="https://arxiv.org/abs/2205.01597" target="_blank" style="color:black;"> New Horizons for Fundamental Physics with LISA</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                                    </li>
+  <li><a href="https://arxiv.org/abs/2001.09793" target="_blank" style="color:black;"> Prospects for Fundamental Physics with LISA</a></li>
+     </ul> 
+
+    </div>
+
+
+    <button type="button" class="collapsible2">
+      <div class="sub">
+    </button>
+    <button type="button" class="collapsible1">
+      <div class="sub">  Authorship on Einstein Telescope Observational Science Board Papers
+
+ </button>
+
+
+
+    <div class="content1">
+ <ul>
+  <li><a href="https://arxiv.org/abs/2205.01597" target="_blank" style="color:black;"> New Horizons for Fundamental Physics with LISA</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                                    </li>
+  <li><a href="https://arxiv.org/abs/2001.09793" target="_blank" style="color:black;"> Prospects for Fundamental Physics with LISA</a></li>
+     </ul> 
+
+    </div>
+
+    <button type="button" class="collapsible2">
+      <div class="sub">
+    </button>
+
+    <button type="button" class="collapsible1">
+      <div class="sub"> Authorship on notable LIGO collaboration papers
+ </button>
+    <div class="content1">
+
+        <ul>
+  <li><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.061102" target="_blank" style="color:black;">Observation of Gravitational Waves from a Binary Black Hole Merger</a></li>
+ <li><a href="https://arxiv.org/abs/1602.03840v2" target="_blank" style="color:black;">Properties of the Binary Black Hole Merger GW150914</a></li>
+ <li><a href="https://arxiv.org/abs/1602.03841v2" target="_blank" style="color:black;">Tests of general relativity with GW150914</a></li>
+ <li><a href="https://arxiv.org/abs/1602.03846v1" target="_blank" style="color:black;">Astrophysical Implications of the Binary Black-Hole Merger GW150914</a></li>
+ <li><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.161101" target="_blank" style="color:black;">GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral</a></li>
+<li><a href="https://iopscience.iop.org/article/10.3847/2041-8213/aa91c9" target="_blank" style="color:black;">Multi-messenger Observations of a Binary Neutron Star Merger</a></li>
+<li><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.161101" target="_blank" style="color:black;">GW170817: Measurements of Neutron Star Radii and Equation of State</a></li>
+<li><a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.9.011001" target="_blank" style="color:black;">Properties of the Binary Neutron Star Merger GW170817</a></li>
+ </ul>
+    </div>
+
+
+  </div>
+</div>
+    </section>
+
+    
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 >Curriculum Vitae</h2>
+
+<iframe id="serviceFrameSend" src="cv-swethabhagwat-2022.pdf" width="100%" height="600" allow="autoplay" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+      </section>
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="Outreach">
+        <div class="my-auto">
+          <h2 >Outreach</h2>
+We will soon be launching one sky virtual astronomy camp. Updates coming soon at — 
+
+<iframe id="serviceFrameSend" src="https://www.openfieldcollective.org/astronomy" width="100%" height="600" allow="autoplay" frameborder="4" allowfullscreen></iframe>
+
+        </div>
+      </section>
+
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Miscellaneous</h2>
+
+
+	
+          <h3>Resources</h3>
+			Here is a list of useful websites/resource
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              <a  href="https://www.ligo.caltech.edu/page/detection-companion-papers" target="_blank">LVK collaboration detections papers</a></li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              <a  href="https://data.black-holes.org/waveforms/catalog.html" target="_blank"> SXS Gravitational Waveform</a></li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              <a  href="https://centra.tecnico.ulisboa.pt/network/grit/files/ringdown/" target="_blank"> Ringdown data</a></li>
+
+          </ul>
+        </div>
+      </section>
+      <section class="p-3 p-lg-5"  id="awards">
+	
+		<h2>Painting</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Oil')"> Oil on Canvas</button>
+  <button class="btn" onclick="filterSelection('Pen')"> Pen Work</button>
+  <button class="btn" onclick="filterSelection('Mix')"> Mix Media</button>
+</div>
+
+
+  <div class="filterDiv Oil">  <img src="img/1.jpg" height="300" /> </div>
+  <div class="filterDiv Oil"><img src="img/2.jpg" height="300" /></div>
+  <div class="filterDiv Oil"><img src="img/3.jpg" height="300" /></div>
+  <div class="filterDiv Oil"><img src="img/4.jpg" height="300" /></div>
+  <div class="filterDiv Oil"><img src="img/5.jpg" height="300" /></div>
+  <div class="filterDiv Oil"><img src="img/6.jpg" height="300" /></div>
+  <div class="filterDiv Pen"><img src="img/7.jpg" height="300" /></div>
+  <div class="filterDiv Mix"><img src="img/8.jpg" height="300" /></div>
+  <div class="filterDiv Oil"><img src="img/9.jpg" height="300" /></div>
+  <div class="filterDiv Mix"><img src="img/10.jpg" height="300" /></div>
+  <div class="filterDiv Mix"><img src="img/11.jpg" height="300" /></div>
+  <div class="filterDiv Oil"><img src="img/12.jpg" height="300" /></div>
+  <div class="filterDiv Mix"><img src="img/13.jpg" height="300" /></div>
+  <div class="filterDiv Oil"><img src="img/14.jpg" height="300" /></div>
+  <div class="filterDiv Mix"><img src="img/15.jpg" height="300" /></div>
+  <div class="filterDiv Oil"><img src="img/16.jpg" height="300" /></div>	
+  <div class="filterDiv Oil"><img src="img/17.jpg" height="300" /></div>	
+  <div class="filterDiv Oil"><img src="img/18.jpg" height="300" /></div>	
+  <div class="filterDiv Oil"><img src="img/19.jpg" height="300" /></div>	
+  <div class="filterDiv Oil"><img src="img/20.jpg" height="300" /></div>	
+  <div class="filterDiv Oil"><img src="img/21.jpg" height="300" /></div>	
+  <div class="filterDiv Mix"><img src="img/22.jpg" height="300" /></div>	
+  <div class="filterDiv Oil"><img src="img/23.jpg" height="300" /></div>	
+  <div class="filterDiv Pen"><img src="img/24.jpg" height="300" /></div>	
+  <div class="filterDiv Oil"><img src="img/25.jpg" height="300" /></div>	  	
+  <div class="filterDiv Pen"><img src="img/26.jpg" height="300" /></div>	
+  <div class="filterDiv Pen"><img src="img/27.jpg" height="300" /></div>	
+  <div class="filterDiv Mix"><img src="img/28.jpg" height="300" /></div>	
+  <div class="filterDiv Mix"><img src="img/29.jpg" height="300" /></div>	       
+  <div class="filterDiv Oil"><img src="img/30.jpg" height="300" /></div>	
+  <div class="filterDiv Pen"><img src="img/31.jpg" height="300" /></div>	
+      </section>
+
+    </div>
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+var coll = document.getElementsByClassName("collapsible1");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active1");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+  </script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
+</html>
